@@ -61,8 +61,45 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Assets\DesperateDevs\Compile.cs" />
-    <None Include="Assets\Assets\Entitas\LICENSE.txt" />
+    <Compile Include="Assets\AddViewSystem.cs" />
+    <Compile Include="Assets\CommandMoveSystem.cs" />
+    <Compile Include="Assets\CreateMoverSystem.cs" />
+    <Compile Include="Assets\EmitInputSystem.cs" />
+    <Compile Include="Assets\Entitas\DesperateDevs\Compile.cs" />
+    <Compile Include="Assets\GameComponents.cs" />
+    <Compile Include="Assets\GameController.cs" />
+    <Compile Include="Assets\InputComponents.cs" />
+    <Compile Include="Assets\MiddleMouseKeyChangeSpriteSystem.cs" />
+    <Compile Include="Assets\MoveSystem.cs" />
+    <Compile Include="Assets\RenderDirectionSystem.cs" />
+    <Compile Include="Assets\RenderPositionSystem.cs" />
+    <Compile Include="Assets\RenderSpriteSystem.cs" />
+    <Compile Include="Assets\Sources\Generated\Contexts.cs" />
+    <Compile Include="Assets\Sources\Generated\Feature.cs" />
+    <Compile Include="Assets\Sources\Generated\Game\Components\GameDirectionComponent.cs" />
+    <Compile Include="Assets\Sources\Generated\Game\Components\GameMoveCompleteComponent.cs" />
+    <Compile Include="Assets\Sources\Generated\Game\Components\GameMoveComponent.cs" />
+    <Compile Include="Assets\Sources\Generated\Game\Components\GameMoverComponent.cs" />
+    <Compile Include="Assets\Sources\Generated\Game\Components\GamePositionComponent.cs" />
+    <Compile Include="Assets\Sources\Generated\Game\Components\GameSpriteComponent.cs" />
+    <Compile Include="Assets\Sources\Generated\Game\Components\GameViewComponent.cs" />
+    <Compile Include="Assets\Sources\Generated\Game\GameAttribute.cs" />
+    <Compile Include="Assets\Sources\Generated\Game\GameComponentsLookup.cs" />
+    <Compile Include="Assets\Sources\Generated\Game\GameContext.cs" />
+    <Compile Include="Assets\Sources\Generated\Game\GameEntity.cs" />
+    <Compile Include="Assets\Sources\Generated\Game\GameMatcher.cs" />
+    <Compile Include="Assets\Sources\Generated\Input\Components\InputLeftMouseComponent.cs" />
+    <Compile Include="Assets\Sources\Generated\Input\Components\InputMouseDownComponent.cs" />
+    <Compile Include="Assets\Sources\Generated\Input\Components\InputMousePositionComponent.cs" />
+    <Compile Include="Assets\Sources\Generated\Input\Components\InputMouseUpComponent.cs" />
+    <Compile Include="Assets\Sources\Generated\Input\Components\InputRightMouseComponent.cs" />
+    <Compile Include="Assets\Sources\Generated\Input\InputAttribute.cs" />
+    <Compile Include="Assets\Sources\Generated\Input\InputComponentsLookup.cs" />
+    <Compile Include="Assets\Sources\Generated\Input\InputContext.cs" />
+    <Compile Include="Assets\Sources\Generated\Input\InputEntity.cs" />
+    <Compile Include="Assets\Sources\Generated\Input\InputMatcher.cs" />
+    <Compile Include="Assets\TutorialSystems.cs" />
+    <None Include="Assets\Entitas\Entitas\LICENSE.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>E:/EntitasProject/EnitasProject/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
@@ -277,28 +314,28 @@
       <HintPath>C:/Users/14590/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Entitas.VisualDebugging.Unity">
-      <HintPath>E:/EntitasProject/EnitasProject/Assets/Assets/Entitas/Entitas.VisualDebugging.Unity.dll</HintPath>
+      <HintPath>E:/EntitasProject/EnitasProject/Assets/Entitas/Entitas/Entitas.VisualDebugging.Unity.dll</HintPath>
     </Reference>
     <Reference Include="Entitas.Unity">
-      <HintPath>E:/EntitasProject/EnitasProject/Assets/Assets/Entitas/Entitas.Unity.dll</HintPath>
+      <HintPath>E:/EntitasProject/EnitasProject/Assets/Entitas/Entitas/Entitas.Unity.dll</HintPath>
     </Reference>
     <Reference Include="DesperateDevs.Logging">
-      <HintPath>E:/EntitasProject/EnitasProject/Assets/Assets/DesperateDevs/DesperateDevs.Logging.dll</HintPath>
+      <HintPath>E:/EntitasProject/EnitasProject/Assets/Entitas/DesperateDevs/DesperateDevs.Logging.dll</HintPath>
     </Reference>
     <Reference Include="Entitas.CodeGeneration.Attributes">
-      <HintPath>E:/EntitasProject/EnitasProject/Assets/Assets/Entitas/Entitas.CodeGeneration.Attributes.dll</HintPath>
+      <HintPath>E:/EntitasProject/EnitasProject/Assets/Entitas/Entitas/Entitas.CodeGeneration.Attributes.dll</HintPath>
     </Reference>
     <Reference Include="Entitas">
-      <HintPath>E:/EntitasProject/EnitasProject/Assets/Assets/Entitas/Entitas.dll</HintPath>
+      <HintPath>E:/EntitasProject/EnitasProject/Assets/Entitas/Entitas/Entitas.dll</HintPath>
     </Reference>
     <Reference Include="DesperateDevs.Serialization">
-      <HintPath>E:/EntitasProject/EnitasProject/Assets/Assets/DesperateDevs/DesperateDevs.Serialization.dll</HintPath>
+      <HintPath>E:/EntitasProject/EnitasProject/Assets/Entitas/DesperateDevs/DesperateDevs.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="DesperateDevs.Utils">
-      <HintPath>E:/EntitasProject/EnitasProject/Assets/Assets/DesperateDevs/DesperateDevs.Utils.dll</HintPath>
+      <HintPath>E:/EntitasProject/EnitasProject/Assets/Entitas/DesperateDevs/DesperateDevs.Utils.dll</HintPath>
     </Reference>
     <Reference Include="DesperateDevs.Networking">
-      <HintPath>E:/EntitasProject/EnitasProject/Assets/Assets/DesperateDevs/DesperateDevs.Networking.dll</HintPath>
+      <HintPath>E:/EntitasProject/EnitasProject/Assets/Entitas/DesperateDevs/DesperateDevs.Networking.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>E:/UnityFolder/2018.2.0f2/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
