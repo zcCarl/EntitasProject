@@ -307,26 +307,11 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>E:/UnityFolder/2018.2.0f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Users/14590/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>C:/Users/14590/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Entitas.VisualDebugging.Unity">
-      <HintPath>E:/EntitasProject/EnitasProject/Assets/Entitas/Entitas/Entitas.VisualDebugging.Unity.dll</HintPath>
-    </Reference>
-    <Reference Include="Entitas.Unity">
-      <HintPath>E:/EntitasProject/EnitasProject/Assets/Entitas/Entitas/Entitas.Unity.dll</HintPath>
-    </Reference>
     <Reference Include="DesperateDevs.Logging">
       <HintPath>E:/EntitasProject/EnitasProject/Assets/Entitas/DesperateDevs/DesperateDevs.Logging.dll</HintPath>
     </Reference>
-    <Reference Include="Entitas.CodeGeneration.Attributes">
-      <HintPath>E:/EntitasProject/EnitasProject/Assets/Entitas/Entitas/Entitas.CodeGeneration.Attributes.dll</HintPath>
-    </Reference>
-    <Reference Include="Entitas">
-      <HintPath>E:/EntitasProject/EnitasProject/Assets/Entitas/Entitas/Entitas.dll</HintPath>
+    <Reference Include="DesperateDevs.Networking">
+      <HintPath>E:/EntitasProject/EnitasProject/Assets/Entitas/DesperateDevs/DesperateDevs.Networking.dll</HintPath>
     </Reference>
     <Reference Include="DesperateDevs.Serialization">
       <HintPath>E:/EntitasProject/EnitasProject/Assets/Entitas/DesperateDevs/DesperateDevs.Serialization.dll</HintPath>
@@ -334,8 +319,23 @@
     <Reference Include="DesperateDevs.Utils">
       <HintPath>E:/EntitasProject/EnitasProject/Assets/Entitas/DesperateDevs/DesperateDevs.Utils.dll</HintPath>
     </Reference>
-    <Reference Include="DesperateDevs.Networking">
-      <HintPath>E:/EntitasProject/EnitasProject/Assets/Entitas/DesperateDevs/DesperateDevs.Networking.dll</HintPath>
+    <Reference Include="Entitas.CodeGeneration.Attributes">
+      <HintPath>E:/EntitasProject/EnitasProject/Assets/Entitas/Entitas/Entitas.CodeGeneration.Attributes.dll</HintPath>
+    </Reference>
+    <Reference Include="Entitas">
+      <HintPath>E:/EntitasProject/EnitasProject/Assets/Entitas/Entitas/Entitas.dll</HintPath>
+    </Reference>
+    <Reference Include="Entitas.Unity">
+      <HintPath>E:/EntitasProject/EnitasProject/Assets/Entitas/Entitas/Entitas.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Entitas.VisualDebugging.Unity">
+      <HintPath>E:/EntitasProject/EnitasProject/Assets/Entitas/Entitas/Entitas.VisualDebugging.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Users/14590/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StandardEvents">
+      <HintPath>C:/Users/14590/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>E:/UnityFolder/2018.2.0f2/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
